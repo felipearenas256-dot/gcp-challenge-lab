@@ -1,0 +1,11 @@
+{
+  "name": "GCP - The Basics of Google Cloud Compute: Challenge Lab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "postCreateCommand": "bash .devcontainer/instalar-gcloud.sh",
+  "postAttachCommand": "echo '\\n>> Entorno listo. Ejecuta: ./lab.sh  (menú)  o  ./lab.sh todo\\n'",
+  "customizations": {
+    "vscode": {
+      "extensions": ["timonwong.shellcheck"]
+    }
+  }
+}
